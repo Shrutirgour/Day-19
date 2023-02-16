@@ -1,0 +1,38 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Routing file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/grepruby/freshers-training/training-2023-january/shruti-gour/training.git"
+  },
+  "keywords": [
+    "pratical"
+  ],
+  "author": "Shruti Gour",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
